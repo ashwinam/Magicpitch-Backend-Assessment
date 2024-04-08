@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "magicpitch-backend-assessment"
+version = "0.1.0"
+description = ""
+authors = ["ashwinPy <ashwinam31@gmail.com>"]
+readme = "README.md"
+packages = [{include = "magicpitch_backend_assessment"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+djangorestframework = "^3.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
